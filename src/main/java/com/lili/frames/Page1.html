@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:wicket="http://wicket.apache.org">
+
+<head>
+    <title> Examples - 查询</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    This is page 1
+    <form wicket:id="inputForm" class="inputForm">
+        <div>
+            <wicket:message key="use.locale">Use locale:</wicket:message>
+            <select wicket:id="localeSelect"></select>
+            <wicket:link><img src="flag.gif" /></wicket:link>
+            <!--<a href="#" wicket:id="defaultLocaleLink">[<wicket:message key="default" />]</a>-->
+        </div>
+        <fieldset>
+            <legend><wicket:message key="input" /></legend>
+        <label for="test1">
+            <wicket:message key="string" />
+            <!--字符串１-->
+        </label>
+        <input wicket:id="test1" id="test1" type="text" size="40"/>
+
+        <label for="test2">
+                <wicket:message key="integer" />
+            <!--字符串２-->
+        </label>
+        <input wicket:id="test2" id="test2" type="text" size="40"/>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </fieldset>
+        <p></p>
+        </form>
+</body>
+</html>

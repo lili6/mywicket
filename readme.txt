@@ -1,0 +1,1 @@
+mvn archetype:generate -DarchetypeGroupId=org.apache.wicket -DarchetypeArtifactId=wicket-archetype-quickstart -DarchetypeVersion=6.18.0 -DgroupId=com.lili -DartifactId=mywicket -DarchetypeRepository=https://repository.apache.org/ -DinteractiveMode=false
